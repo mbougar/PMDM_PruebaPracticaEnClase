@@ -11,6 +11,7 @@ import com.mbougar.pmdm_pruebapracticaenclase.ui.screens.WelcomeScreen
 
 @Composable
 fun AppNavigation(navController: NavHostController) {
+    //Instanciamos el navHost y establecemos la screen de inicio como First Screen
     NavHost(navController = navController, startDestination = AppScreen.FirstScreen.route) {
         composable(AppScreen.FirstScreen.route) {
             MainScreen(navController)

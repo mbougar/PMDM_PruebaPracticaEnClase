@@ -6,7 +6,6 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.navigation.compose.rememberNavController
 import com.mbougar.pmdm_pruebapracticaenclase.navigation.AppNavigation
-import com.mbougar.pmdm_pruebapracticaenclase.ui.screens.MainScreen
 import com.mbougar.pmdm_pruebapracticaenclase.ui.theme.MyTheme
 
 class MainActivity : ComponentActivity() {
